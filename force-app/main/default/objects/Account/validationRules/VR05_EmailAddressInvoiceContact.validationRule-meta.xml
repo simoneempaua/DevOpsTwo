@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR05_EmailAddressInvoiceContact</fullName>
+    <active>false</active>
+    <description>The selected invoice contact does not have an email address [VR05].</description>
+    <errorConditionFormula>$User.IsBypassVR__c = False 
+&amp;&amp;
+NOT(ISBLANK(InvoiceContactRef__c))
+&amp;&amp;
+ISBLANK(InvoiceContactRef__r.Email)
+&amp;&amp;
+ RecordTypeId = &quot;012240000000bYmAAI&quot;</errorConditionFormula>
+    <errorMessage>The selected invoice contact does not have an email address [VR05].</errorMessage>
+</ValidationRule>

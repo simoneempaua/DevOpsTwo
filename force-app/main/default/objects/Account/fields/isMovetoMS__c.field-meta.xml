@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMovetoMS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>to be deleted once exercise is complete - is there potential MS opportunity once the open project is closed</description>
+    <externalId>false</externalId>
+    <inlineHelpText>to be deleted once exercise is complete - is there potential MS opportunity once the open project is closed</inlineHelpText>
+    <label>Move to MS</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

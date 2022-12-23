@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TierImageAuto__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TotalBookings__c &gt;= TotalRevenueNet__c, 
+IF(IsKeyAccount__c,IMAGE(&quot;/resource/AccountTiers/red.png&quot;, &quot;KAM&quot;,41,32)
+,IF(AND(TotalBookings__c = 0, NOT(ISPICKVAL(Type, &apos;Lost Prospect&apos;))), &quot;Prospect&quot;, IF(AND(TotalBookings__c = 0, ISPICKVAL(Type, &apos;Lost Prospect&apos;)), &quot;&quot;, IF(TotalBookings__c &lt; 20000, IMAGE(&quot;/resource/AccountTiers/bronze.png&quot;, &quot;Bronze&quot;,41,32)
+, IF(TotalBookings__c &lt; 40000 ,IMAGE(&quot;/resource/AccountTiers/silver.png&quot;, &quot;Silver&quot;,41,32)
+, IF(TotalBookings__c &lt; 80000, IMAGE(&quot;/resource/AccountTiers/gold.png&quot;, &quot;Gold&quot;,41,32)
+, IF(TotalBookings__c &gt; 80000, IMAGE(&quot;/resource/AccountTiers/black.png&quot;, &quot;Platinum&quot;,41,32)
+,IMAGE(&quot;/resource/AccountTiers/bronze.png&quot;, &quot;Bronze&quot;,41,32)
+))))))),
+
+IF(IsKeyAccount__c,IMAGE(&quot;/resource/AccountTiers/red.png&quot;, &quot;KAM&quot;,41,32),IF(AND(TotalRevenueNet__c = 0,NOT(ISPICKVAL(Type, &apos;Lost Prospect&apos;))), &quot;Prospect&quot;, IF(AND(TotalRevenueNet__c = 0, ISPICKVAL(Type, &apos;Lost Prospect&apos;)), &quot;&quot;, IF(TotalRevenueNet__c &lt; 20000, IMAGE(&quot;/resource/AccountTiers/bronze.png&quot;, &quot;Bronze&quot;,41,32)
+, IF(TotalRevenueNet__c &lt; 40000 ,IMAGE(&quot;/resource/AccountTiers/silver.png&quot;, &quot;Silver&quot;,41,32), IF(TotalRevenueNet__c &lt; 80000, IMAGE(&quot;/resource/AccountTiers/gold.png&quot;, &quot;Gold&quot;,41,32)
+, IF(TotalRevenueNet__c &gt; 80000, IMAGE(&quot;/resource/AccountTiers/black.png&quot;, &quot;Platinum&quot;,41,32)
+,IMAGE(&quot;/resource/AccountTiers/bronze.png&quot;, &quot;Bronze&quot;,41,32)
+))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Tiers based on bookings or total net revenue (if higher) 
+0k = Prospect 
+&lt;20k = Bronze (bronze)
+&lt;40 = Silver (silver)
+&lt;80k = Gold (gold)
+&gt;80k = Platinum (black)
+Key Account = KAM (red)</inlineHelpText>
+    <label>Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

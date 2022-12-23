@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessAccountCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Type</fields>
+    <fields>TierImageAuto__c</fields>
+    <fields>CountWonOpportunitiesAuto__c</fields>
+    <fields>DLRS_CurrentProjectsTrig__c</fields>
+    <fields>DLRS_TotalBookingsTrig__c</fields>
+    <fields>TotalRevenueNet__c</fields>
+    <fields>PaymentStatusAuto__c</fields>
+    <fields>VAT_Number__c</fields>
+    <fields>AverageClientMoraleAuto__c</fields>
+    <label>Business Account Compact Layout</label>
+</CompactLayout>

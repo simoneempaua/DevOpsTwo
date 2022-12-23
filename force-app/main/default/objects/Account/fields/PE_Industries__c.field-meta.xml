@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PE_Industries__c</fullName>
+    <externalId>false</externalId>
+    <label>PE Industries</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Aerospace</fullName>
+                <default>false</default>
+                <label>Aerospace</label>
+            </value>
+            <value>
+                <fullName>Agribusiness</fullName>
+                <default>false</default>
+                <label>Agribusiness</label>
+            </value>
+            <value>
+                <fullName>Automobiles</fullName>
+                <default>false</default>
+                <label>Automobiles</label>
+            </value>
+            <value>
+                <fullName>Biopolymers</fullName>
+                <default>false</default>
+                <label>Biopolymers</label>
+            </value>
+            <value>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+                <label>Biotechnology</label>
+            </value>
+            <value>
+                <fullName>Bottling</fullName>
+                <default>false</default>
+                <label>Bottling</label>
+            </value>
+            <value>
+                <fullName>Business Services</fullName>
+                <default>false</default>
+                <label>Business Services</label>
+            </value>
+            <value>
+                <fullName>Business Support Services</fullName>
+                <default>false</default>
+                <label>Business Support Services</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Commercial Property</fullName>
+                <default>false</default>
+                <label>Commercial Property</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Consumer Discretionary</fullName>
+                <default>false</default>
+                <label>Consumer Discretionary</label>
+            </value>
+            <value>
+                <fullName>Consumer Products</fullName>
+                <default>false</default>
+                <label>Consumer Products</label>
+            </value>
+            <value>
+                <fullName>Consumer Services</fullName>
+                <default>false</default>
+                <label>Consumer Services</label>
+            </value>
+            <value>
+                <fullName>Cooling &amp; Ventilation Equipment and Services</fullName>
+                <default>false</default>
+                <label>Cooling &amp; Ventilation Equipment and Services</label>
+            </value>
+            <value>
+                <fullName>Defence</fullName>
+                <default>false</default>
+                <label>Defence</label>
+            </value>
+            <value>
+                <fullName>Diversified</fullName>
+                <default>false</default>
+                <label>Diversified</label>
+            </value>
+            <value>
+                <fullName>Education/Training</fullName>
+                <default>false</default>
+                <label>Education/Training</label>
+            </value>
+            <value>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+                <label>Electronics</label>
+            </value>
+            <value>
+                <fullName>Energy &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Energy &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Energy Storage &amp; Batteries</fullName>
+                <default>false</default>
+                <label>Energy Storage &amp; Batteries</label>
+            </value>
+            <value>
+                <fullName>Environmental Services</fullName>
+                <default>false</default>
+                <label>Environmental Services</label>
+            </value>
+            <value>
+                <fullName>Financial &amp; Insurance Services</fullName>
+                <default>false</default>
+                <label>Financial &amp; Insurance Services</label>
+            </value>
+            <value>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+                <label>Financial Services</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Forestry &amp; Timber</fullName>
+                <default>false</default>
+                <label>Forestry &amp; Timber</label>
+            </value>
+            <value>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <label>Hardware</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Healthcare IT</fullName>
+                <default>false</default>
+                <label>Healthcare IT</label>
+            </value>
+            <value>
+                <fullName>Healthcare Specialists</fullName>
+                <default>false</default>
+                <label>Healthcare Specialists</label>
+            </value>
+            <value>
+                <fullName>Heating</fullName>
+                <default>false</default>
+                <label>Heating</label>
+            </value>
+            <value>
+                <fullName>Industrial Machinery</fullName>
+                <default>false</default>
+                <label>Industrial Machinery</label>
+            </value>
+            <value>
+                <fullName>Industrials</fullName>
+                <default>false</default>
+                <label>Industrials</label>
+            </value>
+            <value>
+                <fullName>Information Services</fullName>
+                <default>false</default>
+                <label>Information Services</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>IT Infrastructure</fullName>
+                <default>false</default>
+                <label>IT Infrastructure</label>
+            </value>
+            <value>
+                <fullName>IT Security/Cybersecurity</fullName>
+                <default>false</default>
+                <label>IT Security/Cybersecurity</label>
+            </value>
+            <value>
+                <fullName>Logistics &amp; Distribution</fullName>
+                <default>false</default>
+                <label>Logistics &amp; Distribution</label>
+            </value>
+            <value>
+                <fullName>Marketing/Advertising</fullName>
+                <default>false</default>
+                <label>Marketing/Advertising</label>
+            </value>
+            <value>
+                <fullName>Materials</fullName>
+                <default>false</default>
+                <label>Materials</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Medical Devices &amp; Equipment</fullName>
+                <default>false</default>
+                <label>Medical Devices &amp; Equipment</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>Other Vehicles &amp; Parts</fullName>
+                <default>false</default>
+                <label>Other Vehicles &amp; Parts</label>
+            </value>
+            <value>
+                <fullName>Outsourcing</fullName>
+                <default>false</default>
+                <label>Outsourcing</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Pharmaceuticals</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals</label>
+            </value>
+            <value>
+                <fullName>Power &amp; Utilities</fullName>
+                <default>false</default>
+                <label>Power &amp; Utilities</label>
+            </value>
+            <value>
+                <fullName>Raw Materials &amp; Natural Resources</fullName>
+                <default>false</default>
+                <label>Raw Materials &amp; Natural Resources</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Real Estate Development &amp; Operating Companies</fullName>
+                <default>false</default>
+                <label>Real Estate Development &amp; Operating Companies</label>
+            </value>
+            <value>
+                <fullName>Renewable Energy</fullName>
+                <default>false</default>
+                <label>Renewable Energy</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Semiconductors</fullName>
+                <default>false</default>
+                <label>Semiconductors</label>
+            </value>
+            <value>
+                <fullName>Ship Building &amp; Repair</fullName>
+                <default>false</default>
+                <label>Ship Building &amp; Repair</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Telecoms</fullName>
+                <default>false</default>
+                <label>Telecoms</label>
+            </value>
+            <value>
+                <fullName>Telecoms &amp; Media</fullName>
+                <default>false</default>
+                <label>Telecoms &amp; Media</label>
+            </value>
+            <value>
+                <fullName>Transportation Services</fullName>
+                <default>false</default>
+                <label>Transportation Services</label>
+            </value>
+            <value>
+                <fullName>Travel &amp; Leisure</fullName>
+                <default>false</default>
+                <label>Travel &amp; Leisure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

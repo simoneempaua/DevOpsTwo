@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextProjectContactTrig__c</fullName>
+    <description>Automated filled by a process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When is the next touch point with the customer planned reg. running projects?</inlineHelpText>
+    <label>Next Project Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

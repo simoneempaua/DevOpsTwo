@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isImmediatePayment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For Finance</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If client needs to pay their invoice upon receipt, please check this field and let Finance know</inlineHelpText>
+    <label>Immediate Payment?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

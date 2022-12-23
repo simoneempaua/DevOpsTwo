@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR06_Acc_PersonPhoneEmailRequired</fullName>
+    <active>true</active>
+    <description>Phone or Email is required for an applicant record.</description>
+    <errorConditionFormula>$User.IsBypassVR__c = False  &amp;&amp;   
+IsPersonAccount = TRUE&amp;&amp; 
+ AND(ISBLANK(PersonEmail) &amp;&amp; ISBLANK(Phone))</errorConditionFormula>
+    <errorMessage>At least phone number or email address is required for an applicant record. [VR06]</errorMessage>
+</ValidationRule>

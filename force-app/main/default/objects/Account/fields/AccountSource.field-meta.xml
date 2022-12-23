@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountSource</fullName>
+    <inlineHelpText>Mapped from the Lead Object, the lead source simply states the source the contact originated from and should not change once captured, whereas Campaigns are used to track specific activities such as Email Marketing, Tele-Prospecting, etc.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

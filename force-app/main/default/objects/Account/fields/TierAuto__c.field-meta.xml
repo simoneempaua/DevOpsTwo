@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TierAuto__c</fullName>
+    <description>Used for automated tiering of our customers. 
+Tiers: 0 = Prospect, &lt;20k = Bronze, &lt;40 = Silver, &lt;80k = Gold, &gt;80k = Platinum, Key Account = KAM</description>
+    <externalId>false</externalId>
+    <formula>IF(TotalBookings__c &gt;= TotalRevenueNet__c,
+IF(IsKeyAccount__c,&quot;KAM&quot;,IF(AND(TotalBookings__c = 0, NOT(ISPICKVAL(Type, &apos;Lost Prospect&apos;))), &quot;Prospect&quot;, IF(AND(TotalBookings__c = 0, ISPICKVAL(Type, &apos;Lost Prospect&apos;)), &quot;&quot;, IF(TotalBookings__c &lt; 20000, &quot;Bronze&quot;, IF(TotalBookings__c &lt; 40000 ,&quot;Silver&quot;, IF(TotalBookings__c &lt; 80000, &quot;Gold&quot;, IF(TotalBookings__c &gt; 80000, &quot;Platinum&quot;,&quot;Bronze&quot;))))))),
+
+IF(IsKeyAccount__c,&quot;KAM&quot;,IF(AND(TotalRevenueNet__c = 0,NOT(ISPICKVAL(Type, &apos;Lost Prospect&apos;))), &quot;Prospect&quot;, IF(AND(TotalRevenueNet__c = 0, ISPICKVAL(Type, &apos;Lost Prospect&apos;)), &quot;&quot;, IF(TotalRevenueNet__c &lt; 20000, &quot;Bronze&quot;, IF(TotalRevenueNet__c &lt; 40000 ,&quot;Silver&quot;, IF(TotalRevenueNet__c &lt; 80000, &quot;Gold&quot;, IF(TotalRevenueNet__c &gt; 80000, &quot;Platinum&quot;,&quot;Bronze&quot;))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Tiers based on bookings or total net revenue (if higher) 
+0k = Prospect
+&lt;20k = Bronze
+&lt;40 = Silver
+&lt;80k = Gold
+&gt;80k = Platinum
+Key Account = KAM</inlineHelpText>
+    <label>Tier</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OperationsSummary__c</fullName>
+    <description>Notes from Operations perspective for consultants to bear in mind. This will show up on the case.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Notes from Operations perspective for consultants to bear in mind. This will show up on the case.</inlineHelpText>
+    <label>Operations Summary</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

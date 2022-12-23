@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InvoicesIn2ndAnd3rdReminder__c</fullName>
+    <description>Used to trigger the Traffic Lights on Accounts and Projects indicating the Payment Status</description>
+    <externalId>false</externalId>
+    <label># Invoices in 2nd and 3rd Reminder</label>
+    <summaryFilterItems>
+        <field>Invoice__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Second reminder, Third reminder, Final Reminder, Escalated</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Invoice__c.AccountRef__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

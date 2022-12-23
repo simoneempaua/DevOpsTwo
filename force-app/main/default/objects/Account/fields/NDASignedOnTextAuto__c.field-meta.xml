@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NDASignedOnTextAuto__c</fullName>
+    <description>Docusign Write Back Conversion Field.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+NDASignedOnText__c = &quot;&quot;,NULL,
+DATE(
+VALUE(RIGHT(NDASignedOnText__c,4)),
+VALUE(MID( NDASignedOnText__c ,4,2)),
+VALUE(LEFT(NDASignedOnText__c, 2))
+)
+)</formula>
+    <inlineHelpText>Docusign Write Back Conversion Field.</inlineHelpText>
+    <label>NDA Signed On Text Auto</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

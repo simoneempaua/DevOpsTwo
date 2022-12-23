@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_AccountsNew</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>TierImageAuto__c</columns>
+    <columns>AccountStatusPick__c</columns>
+    <columns>CountWonOpportunitiesAuto__c</columns>
+    <columns>Sales_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Applicant,Employee,PAUA Ranger,PAUA Ranger (Former)</value>
+    </filters>
+    <label>My Accounts</label>
+</ListView>

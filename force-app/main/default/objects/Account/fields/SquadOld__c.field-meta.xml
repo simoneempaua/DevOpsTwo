@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SquadOld__c</fullName>
+    <externalId>false</externalId>
+    <label>Squad (Old)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Highly Koalafied Squad</fullName>
+                <default>false</default>
+                <label>Highly Koalafied Squad</label>
+            </value>
+            <value>
+                <fullName>B2B2C Squad</fullName>
+                <default>false</default>
+                <label>B2B2C Squad</label>
+            </value>
+            <value>
+                <fullName>DopeScope__c Squad</fullName>
+                <default>false</default>
+                <label>DopeScope__c Squad</label>
+            </value>
+            <value>
+                <fullName>Managed Services Squad</fullName>
+                <default>false</default>
+                <label>Managed Services Squad</label>
+            </value>
+            <value>
+                <fullName>Bomb Squad</fullName>
+                <default>false</default>
+                <label>Bomb Squad</label>
+            </value>
+            <value>
+                <fullName>By Lightning Squad</fullName>
+                <default>false</default>
+                <label>By Lightning Squad</label>
+            </value>
+            <value>
+                <fullName>Kinton Squad</fullName>
+                <default>false</default>
+                <label>Kinton Squad</label>
+            </value>
+            <value>
+                <fullName>Squid Squad</fullName>
+                <default>false</default>
+                <label>Squid Squad</label>
+            </value>
+            <value>
+                <fullName>Scorpion Force Squad</fullName>
+                <default>false</default>
+                <label>Scorpion Force Squad</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

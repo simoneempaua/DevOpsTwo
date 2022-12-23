@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tools__c</fullName>
+    <description>Text box to enter the list of tools they use.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Which tools the company use? (e.g. Salesforce, Excel, Google Docs, Industry Solution, Own Development System, Other...)</inlineHelpText>
+    <label>Tools</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

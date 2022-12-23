@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMP_DATEV__CustomerNumberTrig__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>This field should be automatically populated by the specific need for each use case a client might have. Alternatively, needs to be manually populated. Mapped in the Customer Export to Datev, as the Number per Customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique Customer Account number needed for Datev export. Max 7 digits.</inlineHelpText>
+    <label>Customer Number</label>
+    <length>7</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextCandidateConsentDue__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Shows the date, when next candidate consent is due:
+6 months after Last Candidate Consent Date, if candidate did not accept to be in candidate pool.
+36 months Last Candidate Consent Date, if candidate accepted to be in candidate pool</inlineHelpText>
+    <label>Next Candidate Consent Due</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

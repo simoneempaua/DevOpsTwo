@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PE_SubVerticals__c</fullName>
+    <externalId>false</externalId>
+    <label>PE SubVerticals</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3D Printing</fullName>
+                <default>false</default>
+                <label>3D Printing</label>
+            </value>
+            <value>
+                <fullName>AdTech</fullName>
+                <default>false</default>
+                <label>AdTech</label>
+            </value>
+            <value>
+                <fullName>Agtech</fullName>
+                <default>false</default>
+                <label>Agtech</label>
+            </value>
+            <value>
+                <fullName>Artificial Intelligence</fullName>
+                <default>false</default>
+                <label>Artificial Intelligence</label>
+            </value>
+            <value>
+                <fullName>Augmented Reality (AR)</fullName>
+                <default>false</default>
+                <label>Augmented Reality (AR)</label>
+            </value>
+            <value>
+                <fullName>Autonomous Vehicle</fullName>
+                <default>false</default>
+                <label>Autonomous Vehicle</label>
+            </value>
+            <value>
+                <fullName>Big Data</fullName>
+                <default>false</default>
+                <label>Big Data</label>
+            </value>
+            <value>
+                <fullName>Blockchain</fullName>
+                <default>false</default>
+                <label>Blockchain</label>
+            </value>
+            <value>
+                <fullName>Cannabis/Medical Marijuana</fullName>
+                <default>false</default>
+                <label>Cannabis/Medical Marijuana</label>
+            </value>
+            <value>
+                <fullName>Chatbots</fullName>
+                <default>false</default>
+                <label>Chatbots</label>
+            </value>
+            <value>
+                <fullName>Clean Technology</fullName>
+                <default>false</default>
+                <label>Clean Technology</label>
+            </value>
+            <value>
+                <fullName>Cloud Computing</fullName>
+                <default>false</default>
+                <label>Cloud Computing</label>
+            </value>
+            <value>
+                <fullName>Cryptocurrency</fullName>
+                <default>false</default>
+                <label>Cryptocurrency</label>
+            </value>
+            <value>
+                <fullName>Daas</fullName>
+                <default>false</default>
+                <label>Daas</label>
+            </value>
+            <value>
+                <fullName>Deep Learning</fullName>
+                <default>false</default>
+                <label>Deep Learning</label>
+            </value>
+            <value>
+                <fullName>Digital Brokerage</fullName>
+                <default>false</default>
+                <label>Digital Brokerage</label>
+            </value>
+            <value>
+                <fullName>Drones</fullName>
+                <default>false</default>
+                <label>Drones</label>
+            </value>
+            <value>
+                <fullName>E-commerce</fullName>
+                <default>false</default>
+                <label>E-commerce</label>
+            </value>
+            <value>
+                <fullName>Edge Computing</fullName>
+                <default>false</default>
+                <label>Edge Computing</label>
+            </value>
+            <value>
+                <fullName>EdTech</fullName>
+                <default>false</default>
+                <label>EdTech</label>
+            </value>
+            <value>
+                <fullName>Electric &amp; Hybrid Vehicles</fullName>
+                <default>false</default>
+                <label>Electric &amp; Hybrid Vehicles</label>
+            </value>
+            <value>
+                <fullName>eWallets &amp; Money Transfer</fullName>
+                <default>false</default>
+                <label>eWallets &amp; Money Transfer</label>
+            </value>
+            <value>
+                <fullName>File/Cloud Storage</fullName>
+                <default>false</default>
+                <label>File/Cloud Storage</label>
+            </value>
+            <value>
+                <fullName>Financial Data</fullName>
+                <default>false</default>
+                <label>Financial Data</label>
+            </value>
+            <value>
+                <fullName>FinTech</fullName>
+                <default>false</default>
+                <label>FinTech</label>
+            </value>
+            <value>
+                <fullName>HealthTech</fullName>
+                <default>false</default>
+                <label>HealthTech</label>
+            </value>
+            <value>
+                <fullName>IaaS</fullName>
+                <default>false</default>
+                <label>IaaS</label>
+            </value>
+            <value>
+                <fullName>Infrastructure</fullName>
+                <default>false</default>
+                <label>Infrastructure</label>
+            </value>
+            <value>
+                <fullName>InsureTech</fullName>
+                <default>false</default>
+                <label>InsureTech</label>
+            </value>
+            <value>
+                <fullName>IoT (Internet of Things)</fullName>
+                <default>false</default>
+                <label>IoT (Internet of Things)</label>
+            </value>
+            <value>
+                <fullName>Lending</fullName>
+                <default>false</default>
+                <label>Lending</label>
+            </value>
+            <value>
+                <fullName>Machine Learning</fullName>
+                <default>false</default>
+                <label>Machine Learning</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Mobile Apps</fullName>
+                <default>false</default>
+                <label>Mobile Apps</label>
+            </value>
+            <value>
+                <fullName>Mobile Messaging</fullName>
+                <default>false</default>
+                <label>Mobile Messaging</label>
+            </value>
+            <value>
+                <fullName>Nanotechnology</fullName>
+                <default>false</default>
+                <label>Nanotechnology</label>
+            </value>
+            <value>
+                <fullName>Online Banking</fullName>
+                <default>false</default>
+                <label>Online Banking</label>
+            </value>
+            <value>
+                <fullName>PaaS</fullName>
+                <default>false</default>
+                <label>PaaS</label>
+            </value>
+            <value>
+                <fullName>Point of Sale Data</fullName>
+                <default>false</default>
+                <label>Point of Sale Data</label>
+            </value>
+            <value>
+                <fullName>Processing &amp; Payment Infrastructure</fullName>
+                <default>false</default>
+                <label>Processing &amp; Payment Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Real Estate Tech</fullName>
+                <default>false</default>
+                <label>Real Estate Tech</label>
+            </value>
+            <value>
+                <fullName>RegTech</fullName>
+                <default>false</default>
+                <label>RegTech</label>
+            </value>
+            <value>
+                <fullName>Research (Non-Medical)</fullName>
+                <default>false</default>
+                <label>Research (Non-Medical)</label>
+            </value>
+            <value>
+                <fullName>Robotics</fullName>
+                <default>false</default>
+                <label>Robotics</label>
+            </value>
+            <value>
+                <fullName>SaaS</fullName>
+                <default>false</default>
+                <label>SaaS</label>
+            </value>
+            <value>
+                <fullName>Sensor Data</fullName>
+                <default>false</default>
+                <label>Sensor Data</label>
+            </value>
+            <value>
+                <fullName>Shared Economy</fullName>
+                <default>false</default>
+                <label>Shared Economy</label>
+            </value>
+            <value>
+                <fullName>Smart Agriculture/Farming</fullName>
+                <default>false</default>
+                <label>Smart Agriculture/Farming</label>
+            </value>
+            <value>
+                <fullName>Smart City</fullName>
+                <default>false</default>
+                <label>Smart City</label>
+            </value>
+            <value>
+                <fullName>Smart Grid</fullName>
+                <default>false</default>
+                <label>Smart Grid</label>
+            </value>
+            <value>
+                <fullName>Smart Home</fullName>
+                <default>false</default>
+                <label>Smart Home</label>
+            </value>
+            <value>
+                <fullName>Smart-Pay: Physical-Digital Interactions</fullName>
+                <default>false</default>
+                <label>Smart-Pay: Physical-Digital Interactions</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Urban Planning</fullName>
+                <default>false</default>
+                <label>Urban Planning</label>
+            </value>
+            <value>
+                <fullName>Virtual Reality (VR)</fullName>
+                <default>false</default>
+                <label>Virtual Reality (VR)</label>
+            </value>
+            <value>
+                <fullName>Wealth Management</fullName>
+                <default>false</default>
+                <label>Wealth Management</label>
+            </value>
+            <value>
+                <fullName>Wearables &amp; Quantified Self</fullName>
+                <default>false</default>
+                <label>Wearables &amp; Quantified Self</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

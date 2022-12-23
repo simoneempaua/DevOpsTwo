@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AESalesforceVertical__c</fullName>
+    <externalId>false</externalId>
+    <label>AE Salesforce Vertical</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business Services</fullName>
+                <default>false</default>
+                <label>Business Services</label>
+            </value>
+            <value>
+                <fullName>High Tech</fullName>
+                <default>false</default>
+                <label>High Tech</label>
+            </value>
+            <value>
+                <fullName>FinServ</fullName>
+                <default>false</default>
+                <label>FinServ</label>
+            </value>
+            <value>
+                <fullName>HLS</fullName>
+                <default>false</default>
+                <label>HLS</label>
+            </value>
+            <value>
+                <fullName>Media/Comms</fullName>
+                <default>false</default>
+                <label>Media/Comms</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>TTH - Travel, Tourism &amp; Hospitality</fullName>
+                <default>false</default>
+                <label>TTH - Travel, Tourism &amp; Hospitality</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMSUpsell__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>to be deleted once exercise is complete - can we upsell this account&apos;s MS</description>
+    <externalId>false</externalId>
+    <inlineHelpText>to be deleted once exercise is complete - can we upsell this account&apos;s MS</inlineHelpText>
+    <label>MS Upsell</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

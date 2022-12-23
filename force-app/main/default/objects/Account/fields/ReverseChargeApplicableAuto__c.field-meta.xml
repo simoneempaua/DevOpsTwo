@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReverseChargeApplicableAuto__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(EMPAUAEntityRef__r.BillingCountry__c) &lt;&gt; BillingCountry, true, 
+false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If the billing country for EMPAUA entity is different than the billing country for this account, reverse charge will be applicable.</inlineHelpText>
+    <label>Reverse Charge Applicable</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

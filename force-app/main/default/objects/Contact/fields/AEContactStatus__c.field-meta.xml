@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AEContactStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>AE Contact Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not contacted</fullName>
+                <default>false</default>
+                <label>Not contacted</label>
+            </value>
+            <value>
+                <fullName>Tried to contact</fullName>
+                <default>false</default>
+                <label>Tried to contact</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Connection</fullName>
+                <default>false</default>
+                <label>LinkedIn Connection</label>
+            </value>
+            <value>
+                <fullName>Spoken/Met</fullName>
+                <default>false</default>
+                <label>Spoken/Met</label>
+            </value>
+            <value>
+                <fullName>Working with</fullName>
+                <default>false</default>
+                <label>Working with</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

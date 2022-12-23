@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMPAUA_Employee_Accounts</fullName>
+    <booleanFilter>1 AND 4 AND (2 OR 3 OR 5)</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>IsCurrentUserActiveAuto__c</columns>
+    <columns>CurrentSalesforceUserRef__c</columns>
+    <columns>EMPAUAEndDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Employee,PAUA Ranger</value>
+    </filters>
+    <filters>
+        <field>EMPAUAEndDate__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>EMPAUAEndDate__c</field>
+        <operation>equals</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Supplier</value>
+    </filters>
+    <filters>
+        <field>IsCurrentUserActiveAuto__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>EMPAUA Employee Accounts</label>
+</ListView>

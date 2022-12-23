@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SalesforceAE_Old__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Who is the Salesforce Account Executive for this company? Please enter the Salesforce Account Executive as Contact here. Please be aware that this contact needs to be related to an Account contains &quot;Salesforce&quot; or &quot;salesforce&quot;.</inlineHelpText>
+    <label>Salesforce AE</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Contact.Account.Name</field>
+            <operation>contains</operation>
+            <value>Salesforce,salesforce,sfdc</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Salesforce AE)</relationshipLabel>
+    <relationshipName>Salesforce_Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

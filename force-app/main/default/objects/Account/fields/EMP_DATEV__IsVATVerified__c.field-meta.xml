@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMP_DATEV__IsVATVerified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Used in Account_Handler and VATVerifiedAuto__c.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checked if verified, Unchecked if not matched in database of VIES.</inlineHelpText>
+    <label>VAT Verified?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

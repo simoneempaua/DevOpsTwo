@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalRevenueNet__c</fullName>
+    <description>Filled by a LookupRollupSummary</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sums up all revenue (net) that is either connected via Billing Mappings or Invoice (Custom Object in Use before Accounting Seed)</inlineHelpText>
+    <label>Total Revenue (Net)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DLRS_TotalBookingsTrig__c</fullName>
+    <description>Used in DLRS to get the amount from all related Opportunities. 
+Used this work-around as we have Advanced Currency Management enabled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How much bookings has this customer generated.</inlineHelpText>
+    <label>Total Bookings</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

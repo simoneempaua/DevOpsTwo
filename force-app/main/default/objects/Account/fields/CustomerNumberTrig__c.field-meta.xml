@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerNumberTrig__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Mapped to TransactionAssignement__c</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unique 5 digit Customer Account number needed for Datev export. Automatically populated when first opportunity is closed for this customer.</inlineHelpText>
+    <label>Customer Number (Deprecated)</label>
+    <length>7</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
