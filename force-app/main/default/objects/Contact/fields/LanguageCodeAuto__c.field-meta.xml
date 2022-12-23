@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LanguageCodeAuto__c</fullName>
     <externalId>false</externalId>
     <formula>CASE(PreferredLanguage__c,
-&apos;English&apos;, &apos;en&apos;,
-&apos;Spanish&apos;, &apos;es&apos;,
-&apos;German&apos;, &apos;de&apos;,
-&apos;Preferred Language Missing&apos;)</formula>
+'English', 'en',
+'Spanish', 'es',
+'German', 'de',
+'Preferred Language Missing')</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>LanguageCode</label>
     <required>false</required>

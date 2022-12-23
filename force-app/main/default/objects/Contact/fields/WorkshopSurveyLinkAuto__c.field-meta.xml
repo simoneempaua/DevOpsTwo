@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>WorkshopSurveyLinkAuto__c</fullName>
     <externalId>false</externalId>
-    <formula>HYPERLINK(&quot;https://myempaua.secure.force.com/survey/TakeSurvey?id=&quot;&amp; $Label.WorkshopSurveyIDEnglish&amp;&quot;&amp;cId=&quot;&amp;Id&amp;&quot;&amp;caId=none&quot;,&quot;English Language Workshop Link&quot;) &amp;BR()&amp;
-HYPERLINK(&quot;https://myempaua.secure.force.com/survey/TakeSurvey?id=&quot;&amp;$Label.WorkshopSurveyIDGerman&amp;&quot;&amp;cId=&quot;&amp;Id&amp;&quot;&amp;caId=none&quot;,&quot;German Language Workshop Link&quot;)</formula>
+    <formula>HYPERLINK("https://myempaua.secure.force.com/survey/TakeSurvey?id="&amp; $Label.WorkshopSurveyIDEnglish&amp;"&amp;cId="&amp;Id&amp;"&amp;caId=none","English Language Workshop Link") &amp;BR()&amp;
+HYPERLINK("https://myempaua.secure.force.com/survey/TakeSurvey?id="&amp;$Label.WorkshopSurveyIDGerman&amp;"&amp;cId="&amp;Id&amp;"&amp;caId=none","German Language Workshop Link")</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Workshop Survey Link</label>
     <required>false</required>
