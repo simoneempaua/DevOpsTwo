@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IsProjectContactDone__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Sales check this if the Project &quot;Check-In&quot; was done</description>
+    <description>Sales check this if the Project "Check-In" was done</description>
     <externalId>false</externalId>
-    <inlineHelpText>Check this checkbox if you have done the AM &quot;check-in&quot; with the customer.</inlineHelpText>
+    <inlineHelpText>Check this checkbox if you have done the AM "check-in" with the customer.</inlineHelpText>
     <label>Project Contact done</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

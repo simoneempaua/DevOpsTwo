@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>NDACongaTemplateGroupAuto__c</fullName>
     <description>Sets the Conga Template Category for NDA Templates based on EMPAUA Entity.</description>
     <externalId>false</externalId>
     <formula>CASE( EMPAUAEntityRef__r.CompanyNameExternal__c ,
-&apos;EMPAUA Ltd.&apos;,&apos;UK NDA Account&apos;,
-&apos;EMPAUA GmbH&apos;,&apos;DE NDA Account&apos;,
-&apos;EMPAUA GmbH (CH)&apos;,&apos;CH NDA Account&apos;,
-&apos;&apos;
+'EMPAUA Ltd.','UK NDA Account',
+'EMPAUA GmbH','DE NDA Account',
+'EMPAUA GmbH (CH)','CH NDA Account',
+''
 )</formula>
     <inlineHelpText>Sets the Conga Template Category for NDA Templates based on EMPAUA Entity.</inlineHelpText>
     <label>NDA Conga Template Group</label>

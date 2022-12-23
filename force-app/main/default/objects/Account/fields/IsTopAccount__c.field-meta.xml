@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>isMSUpsell__c</fullName>
+    <fullName>IsTopAccount__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>to be deleted once exercise is complete - can we upsell this account's MS</description>
+    <description>this is a test field created for devops testing purposes #WDevOpsCenter</description>
     <externalId>false</externalId>
-    <inlineHelpText>to be deleted once exercise is complete - can we upsell this account's MS</inlineHelpText>
-    <label>MS Upsell</label>
+    <label>Top Account</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

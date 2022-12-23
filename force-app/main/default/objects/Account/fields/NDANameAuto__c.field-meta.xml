@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>NDANameAuto__c</fullName>
     <externalId>false</externalId>
     <formula>CASE( CustomerSignerNDARef__r.PreferredLanguage__c , 
-&apos;German&apos;,&apos;Geheimhaltungsvereinbarung zwischen &apos;&amp; Name &amp;&apos; EMPAUA&apos;,
-&apos;Mutual NDA between &apos;&amp; Name &amp;&apos; EMPAUA&apos;)</formula>
+'German','Geheimhaltungsvereinbarung zwischen '&amp; Name &amp;' EMPAUA',
+'Mutual NDA between '&amp; Name &amp;' EMPAUA')</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>NDA Name</label>
     <required>false</required>

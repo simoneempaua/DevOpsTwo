@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>IsReverseChargeAuto__c</fullName>
     <externalId>false</externalId>
     <formula>IF
 (
-BillingCountry != &apos;Germany&apos; 
+BillingCountry != 'Germany' 
 &amp;&amp;
 OR(
-BillingCountry = &apos;Austria&apos;,
-BillingCountry = &apos;Belgium&apos;,
-BillingCountry = &apos;Bulgaria&apos;,
-BillingCountry = &apos;Croatia&apos;,
-BillingCountry = &apos;Cyprus&apos;,
-BillingCountry = &apos;Czechia&apos;,
-BillingCountry = &apos;Denmark&apos;,
-BillingCountry = &apos;Estonia&apos;,
-BillingCountry = &apos;Finland&apos;,
-BillingCountry = &apos;France&apos;,
-BillingCountry = &apos;Greece&apos;,
-BillingCountry = &apos;Hungary&apos;,
-BillingCountry = &apos;Ireland&apos;,
-BillingCountry = &apos;Italy&apos;,
-BillingCountry = &apos;Latvia&apos;,
-BillingCountry = &apos;Lithuania&apos;,
-BillingCountry = &apos;Luxembourg&apos;,
-BillingCountry = &apos;Malta&apos;,
-BillingCountry = &apos;Netherlands&apos;,
-BillingCountry = &apos;Poland&apos;,
-BillingCountry = &apos;Portugal&apos;,
-BillingCountry = &apos;Romania&apos;,
-BillingCountry = &apos;Slovakia&apos;,
-BillingCountry = &apos;Slovenia&apos;,
-BillingCountry = &apos;Spain&apos;,
-BillingCountry = &apos;Sweden&apos;),
+BillingCountry = 'Austria',
+BillingCountry = 'Belgium',
+BillingCountry = 'Bulgaria',
+BillingCountry = 'Croatia',
+BillingCountry = 'Cyprus',
+BillingCountry = 'Czechia',
+BillingCountry = 'Denmark',
+BillingCountry = 'Estonia',
+BillingCountry = 'Finland',
+BillingCountry = 'France',
+BillingCountry = 'Greece',
+BillingCountry = 'Hungary',
+BillingCountry = 'Ireland',
+BillingCountry = 'Italy',
+BillingCountry = 'Latvia',
+BillingCountry = 'Lithuania',
+BillingCountry = 'Luxembourg',
+BillingCountry = 'Malta',
+BillingCountry = 'Netherlands',
+BillingCountry = 'Poland',
+BillingCountry = 'Portugal',
+BillingCountry = 'Romania',
+BillingCountry = 'Slovakia',
+BillingCountry = 'Slovenia',
+BillingCountry = 'Spain',
+BillingCountry = 'Sweden'),
 TRUE,
 FALSE)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

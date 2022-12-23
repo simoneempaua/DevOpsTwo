@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PaymentStatusAuto__c</fullName>
     <description>Used to indicate the the current Payment Status of an Account</description>
     <externalId>false</externalId>
-    <formula>IF(NOT(ISPICKVAL(Type,&apos;Customer&apos;)),&apos;&apos;,
+    <formula>IF(NOT(ISPICKVAL(Type,'Customer')),'',
 IF(
-    InvoicesIn2ndAnd3rdReminder__c &gt;0,IMAGE(&quot;/resource/1487585169000/RedTragfficLight&quot;, &quot;Red&quot;),
+    InvoicesIn2ndAnd3rdReminder__c &gt;0,IMAGE("/resource/1487585169000/RedTragfficLight", "Red"),
     IF( InvoicesInFirstReminderAuto__c &gt;0, 
-                                          IMAGE(&quot;/resource/1487585191000/YellowTragfficLight&quot;, &quot;Yellow&quot;),
-                                          IMAGE(&quot;/resource/1487585144000/GreenTrafficLight&quot;, &quot;Green&quot;)
+                                          IMAGE("/resource/1487585191000/YellowTragfficLight", "Yellow"),
+                                          IMAGE("/resource/1487585144000/GreenTrafficLight", "Green")
 )))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Empty if not a current customer.
 Green: No Invoices in Reminders
-Yellow: At least 1 Invoice in &quot;First Reminder&quot;
-Red: At least 1 Invoice after &quot;First Reminder&quot;</inlineHelpText>
+Yellow: At least 1 Invoice in "First Reminder"
+Red: At least 1 Invoice after "First Reminder"</inlineHelpText>
     <label>Payment Status</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
