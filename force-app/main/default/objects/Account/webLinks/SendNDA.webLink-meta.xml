@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SendNDA</fullName>
     <availability>online</availability>
@@ -30,7 +30,7 @@
 &amp;DocuSignR2Type=Signer
 &amp;DocusignR2Role=Signer+2
 &amp;DocuSignR2RoutingOrder=2
-&amp;DocuSignEmailSubject=&apos;EMPAUA NDA - Please review and sign&apos;
+&amp;DocuSignEmailSubject='EMPAUA NDA - Please review and sign'
 &amp;DocuSignSendReminders=1
 &amp;DocuSignRemindIn=2
 &amp;DocuSignRemindAgainIn=2

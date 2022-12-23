@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TotalRevenueNetInvoiceTrig__c</fullName>
-    <description>Automatically populated with DLRS from Billing Mapping with Billing Posting Status = &apos;Posted&apos;</description>
+    <description>Automatically populated with DLRS from Billing Mapping with Billing Posting Status = 'Posted'</description>
     <externalId>false</externalId>
     <label>Total Revenue (net) - Invoice</label>
     <precision>18</precision>

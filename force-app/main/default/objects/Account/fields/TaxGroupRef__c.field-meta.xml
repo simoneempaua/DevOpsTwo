@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>TaxGroupRef__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>Used in Custom Metadata Type &quot;Object Field Sync Definition&quot; to define Tax Group per Billing Line Insert.</description>
+    <description>Used in Custom Metadata Type "Object Field Sync Definition" to define Tax Group per Billing Line Insert.</description>
     <externalId>false</externalId>
     <inlineHelpText>Please state which Tax Group will be applied in the Billings for this Account.</inlineHelpText>
     <label>Tax Group</label>

@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AccountTypeAuto__c</fullName>
     <externalId>false</externalId>
     <formula>IF(
-RecordType.DeveloperName = &apos;BusinessAccount&apos;&amp;&amp;
+RecordType.DeveloperName = 'BusinessAccount'&amp;&amp;
 CountOpportunitiesAuto__c = CountOpenOpportunitiesAuto__c,
-&apos;Prospect&apos;,
+'Prospect',
 IF(
-RecordType.DeveloperName = &apos;BusinessAccount&apos;&amp;&amp;
+RecordType.DeveloperName = 'BusinessAccount'&amp;&amp;
 CountOpportunitiesAuto__c &gt; 0&amp;&amp;
 CountWonOpportunitiesAuto__c &gt; 0&amp;&amp;
 DLRS_CurrentProjectsTrig__c = 0,
-&apos;Past Customer&apos;,
+'Past Customer',
 IF(
-RecordType.DeveloperName = &apos;BusinessAccount&apos;&amp;&amp;
+RecordType.DeveloperName = 'BusinessAccount'&amp;&amp;
 CountOpportunitiesAuto__c &gt; 0&amp;&amp;
 CountWonOpportunitiesAuto__c &gt; 1&amp;&amp;
 DLRS_CurrentProjectsTrig__c &gt; 0,
-&apos;Customer&apos;,
+'Customer',
 IF(
-RecordType.DeveloperName = &apos;BusinessAccount&apos;&amp;&amp;
+RecordType.DeveloperName = 'BusinessAccount'&amp;&amp;
 CountOpportunitiesAuto__c = CountLostOpportunitiesAuto__c,
-&apos;Lost Prospect&apos;,
-&apos;&apos;
+'Lost Prospect',
+''
 ))))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Account Type</label>
