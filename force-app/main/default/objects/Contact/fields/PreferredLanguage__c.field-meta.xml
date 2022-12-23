@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PreferredLanguage__c</fullName>
-    <description>Contact&apos;s preferred communication language.</description>
+    <description>Contact's preferred communication language.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Contact&apos;s preferred communication language.</inlineHelpText>
+    <inlineHelpText>Contact's preferred communication language.</inlineHelpText>
     <label>Preferred Language</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
